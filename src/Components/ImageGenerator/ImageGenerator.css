@@ -1,0 +1,121 @@
+.ai-image-generator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 30px;
+}
+
+.header{
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+
+.header span{
+    color: rgb(17, 197, 155);
+    font-weight: 600;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.search-box{
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #1f3540;
+}
+
+.search-input{
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+}
+
+.search-input::placeholder{
+    color: #999;
+}   
+
+.generate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    background:  rgb(17, 197, 155);
+    cursor: pointer;
+}
+
+.loading-bar{
+    width: 0px;
+    height: 8px;
+    background:  rgb(17, 197, 155);
+}
+
+.loading.text{
+    font-size: 18px;
+}
+
+.loading-bar-full{
+    width: 512px;
+    height: 8px;
+    background:  rgb(17, 197, 155);
+    transition: 15s;
+}
+
+.display-none{
+    display: none;
+}
+
+.downloadImage-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 30px;
+    background:  rgb(17, 197, 155);
+    cursor: pointer;
+}
+
+.size-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    background: rgb(17, 197, 155);
+    cursor: pointer;
+    border: none; /* Remove the default border */
+    outline: none; /* Remove the default outline */
+    color: white; /* Text color */
+  }
